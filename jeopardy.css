@@ -1,0 +1,47 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c */
+html{
+  background-color: rgba(31, 3, 3, 0.918);
+}
+button{
+  text-align: center;
+  float: right;
+}
+.titles{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: arial, verdana, helvetica, sans-serif;
+  color:   rgb(255, 217, 0);
+  /*font-size: larger;*/
+  /*height: ;*/
+  
+}
+#jeopardy {
+  text-align: center;
+  background-color: #060ce9;
+  color: aliceblue;
+  border-collapse: collapse;
+  /*margin: 0 auto;*/
+  font-size: 12px;
+  /*vertical-align: middle;*/
+}
+td, th{
+  border: inset 1px black;
+  /*width: 5em;*/
+  /*height: 5em;*/
+  /*padding: 0px;*/
+  font-size: 12px;
+  width: 140px;
+  /*height: 15vh;*/
+
+}
+.titles th {
+  height: 10vh;
+}
+td {
+  height: 175px;
+}
